@@ -7,9 +7,9 @@ first_name: Satya
 middle_name: Prakash
 last_name: Dash
 contact_note: >
-  Feel free to reach out via email or LinkedIn. Phone available upon request.
+  Feel free to reach out via email or LinkedIn.
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  PhD researcher at University of Manchester focusing on second-order optimization for LLMs and deep reinforcement learning. Passionate about machine learning, optimization, and understanding complex systems through statistical physics.
+  PhD Researcher at The University of Manchester building scalable and efficient machine learning models with a focus on second-order optimization in supervised setting and deep reinforcement learning.
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
@@ -212,6 +212,8 @@ exclude:
   - _pages/news.md
   - _pages/repositories.md
   - _pages/teaching.md
+  - _pages/profiles.md
+  - _pages/projects.md
 keep_files:
   - CNAME
   - .nojekyll
