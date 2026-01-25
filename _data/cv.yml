@@ -10,11 +10,8 @@ cv:
   social_networks:
     - network: LinkedIn
       username: sprakashdash
-      url: https://www.linkedin.com/in/sprakashdash/
     - network: GitHub
       username: sprakashdash
-      url: https://github.com/sprakashdash
-
 
   sections:
     Education:
@@ -78,7 +75,7 @@ cv:
           - "Onboarded three clients and produced over million annotations"
           - "Managed and assessed team of ten data associates"
 
-    Internships:
+    Volunteer:
       - company: Brain-Feed Pvt. Ltd.
         position: LLM for Nutritional Science
         location: Remote
