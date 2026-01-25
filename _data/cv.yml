@@ -165,7 +165,7 @@ cv:
           - Mingfei Sun
         publisher: Submitted to AISTATS 2026
 
-      - title: Guided Riemannian Optimization (GuRO): Bridging MPC and Decision Transformers
+      - title: "Guided Riemannian Optimization (GuRO): Bridging MPC and Decision Transformers"
         authors:
           - Hossein Abdi
           - Satya Prakash Dash
