@@ -1,420 +1,189 @@
 cv:
-  name: Satya Prakash Dash
-  label: Machine Learning Researcher & PhD Candidate
-  email: sprakashdash@gmail.com
-  phone: "+44 7423 727177"
-  location: Manchester, United Kingdom
+  name: Albert Einstein
+  label: Scientist
+  email: einstein@example.com
+  location: Princeton, NJ
   image: ""
-  summary: >
-    PhD candidate in Computer Science at the University of Manchester researching second-order
-    optimizers for large language models, adaptive transfer learning, and applied reinforcement
-    learning across robotics and retail analytics. I focus on combining principled statistical
-    physics insights with scalable deep learning systems.
+  summary: A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time
 
   social_networks:
+    - network: X
+      username: AlbertEinstein
     - network: GitHub
-      username: sprakashdash
+      username: example
     - network: LinkedIn
-      username: sprakashdash
-    - network: Email
-      username: sprakashdash@gmail.com
+      username: example
 
   address:
-    city: Manchester
-    region: Greater Manchester
-    countryCode: UK
+    street: 2712 Broadway St
+    city: San Francisco
+    region: California
+    postalCode: CA 94115
+    countryCode: US
 
   sections:
     Education:
-      - institution: The University of Manchester
-        location: Manchester, United Kingdom
-        url: https://www.manchester.ac.uk/
-        area: Computer Science
-        studyType: PhD (Dean’s Doctoral Scholar)
-        start_date: Jan 2023
-        end_date: Jul 2026 (expected)
+      - institution: University of Zurich
+        location: Zurich, Switzerland
+        url: https://www.uzh.ch/
+        area: Physics
+        studyType: PhD
+        start_date: 1900
+        end_date: 1905
+        score: ""
+        courses: "Theory of Relativity"
         highlights:
-          - Supervised by Professors Sami Kaski, Mingfei Sun, and Wei Pan.
-          - Researches Fisher Information-guided second-order optimization for LLMs.
-          - Recent submission to AISTATS 2026 on gradient-regularized Fisher Information for rapid adaptation.
+          - Description 1.
+          - Description 2.
 
-      - institution: Indian Institute of Technology Kharagpur
-        location: Kharagpur, India
-        area: Physics (Hons.)
-        studyType: B.Sc. & M.Sc. Dual Degree
-        start_date: 2015
-        end_date: 2020
-        score: GPA 7.61 / 10 (First Class)
+      - institution: Eidgenössische Technische Hochschule
+        location: Zurich, Switzerland
+        area: Physics
+        studyType: Federal teaching diploma
+        start_date: 1896
+        end_date: 1900
         highlights:
-          - Masters thesis on continuous control in deep RL and its statistical physics connections.
-          - Social & Cultural Secretary, Azad Hall of Residence (2016–2017).
+          - Description 1.
+          - Description 2.
 
-      - institution: Central Board of Secondary Education (CBSE)
-        location: Bhubaneswar, India
-        area: Computer Science Stream
-        studyType: Senior Secondary
-        start_date: 2013
-        end_date: 2014
-        score: 89.6%
+    Experience:
+      - company: Institute for Advanced Study, Princeton University
+        position: Professor of Theoretical Physics
+        location: Princeton University, NJ
+        start_date: 1933
+        end_date: 1955
+        summary: Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.
         highlights:
-          - Selected for the Indian National Mathematical Olympiad (INMO) camp.
+          - Relativity
+          - Description 2.
 
-    Research Experience:
-      - company: University of Manchester
-        position: PhD Researcher, Machine Learning
-        location: Manchester, UK
-        start_date: Jan 2023
-        end_date: Jul 2026 (expected)
-        summary: Fisher Information-driven analysis of optimizer trajectories for LLM fine-tuning.
+      - company: California Institute of Technology
+        position: Visiting Professor
+        location: Pasadena, California, US
+        start_date: 1933
+        end_date: 1933
         highlights:
-          - Designing scalable second-order optimizers tailored for transformer training.
-          - Investigating gradient-regularized Fisher Information for fast adaptation in transfer learning.
-          - Maintaining collaborations across the Finnish Center for AI (FCAI).
+          - Description 1.
+          - Description 2.
 
-    Work Experience:
-      - company: Visionify.AI
-        position: Senior Machine Learning Research Engineer
-        location: Remote / USA
-        start_date: Mar 2022
-        end_date: Sep 2022
-        highlights:
-          - Integrated Weights & Biases (wandb.ai) across classification and detection pipelines.
-          - Built and deployed a perspective-correction algorithm for real-time stock monitoring feeds.
-          - Developed blur-detection and enhancement workflows that boosted retail planogram accuracy.
-          - Led quality control of deep-image capture models spanning detection, segmentation, and classification.
+      - company: Kaiser Wilhelm Institute for Physics
+        position: Director
+        location: Berlin, Germany
+        start_date: 1917
+        end_date: 1933
 
-      - company: Expand-AI Pvt Ltd
-        position: Machine Learning Research Engineer
-        location: Bengaluru, India
-        start_date: Feb 2021
-        end_date: Mar 2022
-        highlights:
-          - Established a few-shot ML annotation pipeline delivering 70% faster turnaround than manual processes.
-          - Onboarded Ludimos, Scion, and Mingle Sports for million-scale CV/NLP annotation projects.
-          - Managed a ten-member data associate team across segmentation and NER engagements.
+      - company: Karl-Ferdinand University
+        position: Professor of Theoretical Physics
+        location: Prague, Czechoslovakia
+        start_date: 1911
+        end_date: 1917
 
-    Internships:
-      - company: Brain-Feed Pvt. Ltd.
-        position: Research Intern – LLMs for Nutritional Science
-        location: Remote
-        start_date: Jan 2025
-        end_date: Jul 2025
-        highlights:
-          - Built prompt-tuning and RAG pipelines over clinician knowledge bases using AWS Bedrock.
-          - Automated metadata analytics for internal research assistants.
-          - Developed Claude fine-tuning recipes focused on nutritional supplement corpora.
+      - company: University of Zurich
+        position: Associate Professor of Theoretical Physics
+        location: Zurich, Switzerland
+        start_date: 1909
+        end_date: 1911
 
-      - company: CYENS Centre of Excellence, Cyprus
-        position: Research Intern – Quadrupedal Locomotion
-        location: Nicosia, Cyprus
-        start_date: Apr 2022
-        end_date: Sep 2022
+    Volunteer:
+      - company: People's Climate March
+        position: Lead Organizer
+        location: Zurich, Switzerland
+        start_date: 2014-04-01
+        end_date: 2015-07-01
+        summary: Lead organizer for the New York City branch of the People's Climate March, the largest climate march in history.
         highlights:
-          - Extended IsaacGym simulators for ANYmal and Unitree-A1 with stone/ball collision dynamics.
-          - Designed a CNN+LSTM vision module extracting terrain height cues for obstacle avoidance.
-          - Authored randomized terrain generators (holes, pillars) for robustness benchmarking.
+          - "Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march."
+          - "Men of the year 2014 by Time magazine"
 
-      - company: Indian Institute of Technology Kharagpur
-        position: Research Intern – Atmospheric Sensing
-        location: Kharagpur, India
-        start_date: Jun 2018
-        end_date: Jul 2019
-        highlights:
-          - Processed decade-long Metop-A satellite ammonia datasets alongside NADP particulate archives.
-          - Built geospatial preprocessing pipelines using Google’s geo-encoding APIs.
+    Awards:
+      - title: Nobel Prize in Physics
+        authors:
+          - "Royal Swedish Academy of Sciences"
+        date: 1921-11-01
+        awarder: Royal Swedish Academy of Sciences
+        url: https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/
+        summary: The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'
 
-    Projects:
-      - name: Fixed-Fisher for Pre-training LLMs
-        start_date: Jul 2025
-        end_date: Sep 2025
-        highlights:
-          - Selected for the RAEng Research Ready Summer Internship by the Royal Academy of Engineering.
-          - Demonstrated scalable Natural Gradient Descent for GPT-2 and ViT pre-training outperforming AdamW.
-
-      - name: Policy Gradient Algorithms in PyTorch (RL.Fun.Do)
-        start_date: Jan 2019
-        end_date: Jul 2020
-        highlights:
-          - Implemented DDPG, PPO, TRPO, and SAC for OpenAI Gym and TORCS environments.
-          - Proposed a statistical-physics-inspired partition function for deriving Bellman updates in deterministic and stochastic RL.
-
-      - name: Computational Neuroscience Toolkit
-        start_date: Jan 2018
-        end_date: Apr 2019
-        highlights:
-          - Simulated auditory nerve fiber responses using the Zilany et al. model on tones and speech.
-          - Modeled non-linear spiking via Morris–Lecar and Hodgkin–Huxley systems in MATLAB.
+      - title: Max Planck Medal
+        authors:
+          - "German Physical Society"
+        date: 2029
+        awarder: German Physical Society
+        summary: Awarded for outstanding scientific achievement
 
     Publications:
-      - title: Rank-1 Approximation of Inverse Fisher for Natural Policy Gradients in Deep Reinforcement Learning
+      - title: Zur Elektrodynamik bewegter Körper
         authors:
-          - Yingxiao Huo
-          - Satya Prakash Dash
-          - Radu Stoican
-          - Samuel Kaski
-          - Mingfei Sun
-        publisher: Transactions on Machine Learning Research (TMLR 2025, accepted)
-        url: https://openreview.net/group?id=TMLR
+          - Albert Einstein
+        publisher: Annalen der Physik
+        releaseDate: 1905-06-30
+        url: https://en.wikisource.org/wiki/Translation:On_the_Electrodynamics_of_Moving_Bodies
+        summary: It concerned an interpretation of the Michelson–Morley experiment and the properties of light and time. Special relativity incorporates the principle that the speed of light is the same for all inertial observers regardless of the state of motion of the source.
 
-      - title: Gradient Regularized Natural Gradient
+      - title: Über einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt
         authors:
-          - Satya Prakash Dash
-          - Hossein Abdi
-          - Wei Pan
-          - Samuel Kaski
-          - Mingfei Sun
-        publisher: Submitted to AISTATS 2026
+          - Albert Einstein
+        publisher: Annalen der Physik
+        releaseDate: 1905-03-18
+        url: https://de.wikisource.org/wiki/Über_einen_die_Erzeugung_und_Verwandlung_des_Lichtes_betreffenden_heuristischen_Gesichtspunkt
+        summary: In the second paper, he applied the quantum theory to light to explain the photoelectric effect. In particular, he used the idea of light quanta (photons) to explain experimental results, but stressed the importance of the experimental results. The importance of his work on the photoelectric effect earned him the Nobel Prize in Physics in 1921.
 
-      - title: "Guided Riemannian Optimization (GuRO): Bridging MPC and Decision Transformers"
+      - title: Die Grundlage der allgemeinen Relativitätstheorie
         authors:
-          - Hossein Abdi
-          - Satya Prakash Dash
-          - Wei Pan
-          - Mingfei Sun
-        publisher: Submitted to ICRA 2025
-
-      - title: Record-high Levels of Atmospheric Ammonia over India – Spatial and Temporal Analysis 2020
-        authors:
-          - J. Kuttippurath
-          - Ajay Singh
-          - S. P. Dash
-          - et al.
-        publisher: Science of the Total Environment (Elsevier)
-
-    Conferences & Summer Schools:
-      - name: Cambridge Ellis Unit Summer School on Probabilistic ML
-        location: University of Cambridge
-        date: Jul 2023
-      - name: NeuroMatch Academy – Deep Learning Track
-        date: Aug 2021
-      - name: RLVS Virtual School (ANITI Toulouse & DeepMind)
-        date: Mar 2021 – Apr 2021
-      - name: ACCMS-ICMG 2020 Talk on Meta-RL and Material Informatics
-
-    Reviewer:
-      - name: ICML 2025
-        summary: Reviewed submissions on multi-objective optimization and adaptive learning.
-      - name: Reproducibility Challenge 2020
-        summary: Evaluated reproducibility reports across ML benchmarks.
-
-    Scholarships:
-      - name: Dean’s Doctoral Scholarship
-        date: 2023
-        awarder: University of Manchester
-        summary: Full PhD scholarship covering tuition and stipend.
-      - name: INSPIRE Scholarship (DST, Govt. of India)
-        date: 2015-2020
-        summary: Awarded via JEE Advanced qualification for outstanding science undergraduates.
-
-    Certifications & Achievements:
-      - name: CUDA C++ Applications with Multi-GPUs
-        issuer: NVIDIA
-      - name: Social & Cultural Secretary, Azad Hall of Residence
-        issuer: IIT Kharagpur (2016–2017)
-      - name: INMO Qualifier & Training Camp
-        issuer: HBCSE / NBHM (2014)
+          - Albert Einstein
+        publisher: Annalen der Physik
+        releaseDate: 1916-03-20
+        url: https://de.wikisource.org/wiki/Die_Grundlage_der_allgemeinen_Relativitätstheorie
+        summary: The publication of the theory of general relativity made him internationally famous. He was professor of physics at the universities of Zurich (1909–1911) and Prague (1911–1912), before he returned to ETH Zurich (1912–1914).
 
     Skills:
-      - name: Programming Languages
-        icon: fa-solid fa-code
-        keywords: "Python (PyTorch, Keras, TensorFlow2, OpenCV, NumPy, Scikit-learn, Flask), C++ (STL, CUDA, OpenMP)"
-      - name: Tools & Platforms
-        icon: fa-solid fa-toolbox
-        keywords: "ROS, MuJoCo, PyBullet, IsaacGym, VS Code, JupyterLab, GCP, AWS Bedrock, Docker, Git, MATLAB, LaTeX"
+      - name: Physics
+        level: Master
+        icon: fa-solid fa-hashtag
+        keywords: "Quantum Mechanics, Quantum Computing, Quantum Information, Quantum Cryptography, Quantum Communication, Quantum Teleportation"
 
-    Courses:
-      - name: Major Coursework
-        icon: fa-solid fa-graduation-cap
-        keywords: "Programming & Data Structures, Algorithms, Probability & Statistics, Stochastic Processes, Statistical Physics, Deep Learning, Artificial Intelligence, Computational Neuroscience, Optimal Control, Non-linear Dynamics"
+    Languages:
+      - name: German
+        summary: "Native speaker"
 
-# -----------------------------------------------------------------------------
-# Previous placeholder CV data (Albert Einstein) retained for reference
-# cv:
-#   name: Albert Einstein
-#   label: Scientist
-#   email: einstein@example.com
-#   location: Princeton, NJ
-#   image: ""
-#   summary: A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time
-#
-#   social_networks:
-#     - network: X
-#       username: AlbertEinstein
-#     - network: GitHub
-#       username: example
-#     - network: LinkedIn
-#       username: example
-#
-#   address:
-#     street: 2712 Broadway St
-#     city: San Francisco
-#     region: California
-#     postalCode: CA 94115
-#     countryCode: US
-#
-#   sections:
-#     Education:
-#       - institution: University of Zurich
-#         location: Zurich, Switzerland
-#         url: https://www.uzh.ch/
-#         area: Physics
-#         studyType: PhD
-#         start_date: 1900
-#         end_date: 1905
-#         score: ""
-#         courses: "Theory of Relativity"
-#         highlights:
-#           - Description 1.
-#           - Description 2.
-#
-#       - institution: Eidgenössische Technische Hochschule
-#         location: Zurich, Switzerland
-#         area: Physics
-#         studyType: Federal teaching diploma
-#         start_date: 1896
-#         end_date: 1900
-#         highlights:
-#           - Description 1.
-#           - Description 2.
-#
-#     Experience:
-#       - company: Institute for Advanced Study, Princeton University
-#         position: Professor of Theoretical Physics
-#         location: Princeton University, NJ
-#         start_date: 1933
-#         end_date: 1955
-#         summary: Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.
-#         highlights:
-#           - Relativity
-#           - Description 2.
-#
-#       - company: California Institute of Technology
-#         position: Visiting Professor
-#         location: Pasadena, California, US
-#         start_date: 1933
-#         end_date: 1933
-#         highlights:
-#           - Description 1.
-#           - Description 2.
-#
-#       - company: Kaiser Wilhelm Institute for Physics
-#         position: Director
-#         location: Berlin, Germany
-#         start_date: 1917
-#         end_date: 1933
-#
-#       - company: Karl-Ferdinand University
-#         position: Professor of Theoretical Physics
-#         location: Prague, Czechoslovakia
-#         start_date: 1911
-#         end_date: 1917
-#
-#       - company: University of Zurich
-#         position: Associate Professor of Theoretical Physics
-#         location: Zurich, Switzerland
-#         start_date: 1909
-#         end_date: 1911
-#
-#     Volunteer:
-#       - company: People's Climate March
-#         position: Lead Organizer
-#         location: Zurich, Switzerland
-#         start_date: 2014-04-01
-#         end_date: 2015-07-01
-#         summary: Lead organizer for the New York City branch of the People's Climate March, the largest climate march in history.
-#         highlights:
-#           - "Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march."
-#           - "Men of the year 2014 by Time magazine"
-#
-#     Awards:
-#       - title: Nobel Prize in Physics
-#         authors:
-#           - "Royal Swedish Academy of Sciences"
-#         date: 1921-11-01
-#         awarder: Royal Swedish Academy of Sciences
-#         url: https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/
-#         summary: The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'
-#
-#       - title: Max Planck Medal
-#         authors:
-#           - "German Physical Society"
-#         date: 2029
-#         awarder: German Physical Society
-#         summary: Awarded for outstanding scientific achievement
-#
-#     Publications:
-#       - title: Zur Elektrodynamik bewegter Körper
-#         authors:
-#           - Albert Einstein
-#         publisher: Annalen der Physik
-#         releaseDate: 1905-06-30
-#         url: https://en.wikisource.org/wiki/Translation:On_the_Electrodynamics_of_Moving_Bodies
-#         summary: It concerned an interpretation of the Michelson–Morley experiment and the properties of light and time. Special relativity incorporates the principle that the speed of light is the same for all inertial observers regardless of the state of motion of the source.
-#
-#       - title: Über einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt
-#         authors:
-#           - Albert Einstein
-#         publisher: Annalen der Physik
-#         releaseDate: 1905-03-18
-#         url: https://de.wikisource.org/wiki/Über_einen_die_Erzeugung_und_Verwandlung_des_Lichtes_betreffenden_heuristischen_Gesichtspunkt
-#         summary: In the second paper, he applied the quantum theory to light to explain the photoelectric effect. In particular, he used the idea of light quanta (photons) to explain experimental results, but stressed the importance of the experimental results. The importance of his work on the photoelectric effect earned him the Nobel Prize in Physics in 1921.
-#
-#       - title: Die Grundlage der allgemeinen Relativitätstheorie
-#         authors:
-#           - Albert Einstein
-#         publisher: Annalen der Physik
-#         releaseDate: 1916-03-20
-#         url: https://de.wikisource.org/wiki/Die_Grundlage_der_allgemeinen_Relativitätstheorie
-#         summary: The publication of the theory of general relativity made him internationally famous. He was professor of physics at the universities of Zurich (1909–1911) and Prague (1911–1912), before he returned to ETH Zurich (1912–1914).
-#
-#     Skills:
-#       - name: Physics
-#         level: Master
-#         icon: fa-solid fa-hashtag
-#         keywords: "Quantum Mechanics, Quantum Computing, Quantum Information, Quantum Cryptography, Quantum Communication, Quantum Teleportation"
-#
-#     Languages:
-#       - name: German
-#         summary: "Native speaker"
-#
-#       - name: English
-#         summary: "Fluent"
-#
-#     Interests:
-#       - name: Physics
-#         icon: fa-solid fa-tag
-#         keywords: "Quantum Mechanics, Quantum Computing, Quantum Information, Quantum Cryptography, Quantum Communication, Quantum Teleportation"
-#
-#     Certificates:
-#       - name: Machine Learning
-#         date: 2018-01-01
-#         issuer: Stanford University
-#         icon: fa-solid fa-location-dot
-#
-#       - name: Quantum Computing
-#         date: 2018-01-01
-#         issuer: Stanford University
-#         icon: fa-solid fa-tag
-#
-#       - name: Quantum Information
-#         date: 2018-01-01
-#         issuer: Stanford University
-#         icon: fa-solid fa-envelope
-#
-#     Projects:
-#       - name: Quantum Computing
-#         summary: Quantum computing is the use of quantum-mechanical phenomena such as superposition and entanglement to perform computation. Computers that perform quantum computations are known as quantum computers.
-#         highlights:
-#           - Quantum Teleportation
-#           - Quantum Cryptography
-#         start_date: 2018-01-01
-#         end_date: 2018-01-01
-#
-#     References:
-#       - name: Professor John Doe
-#         icon: fa-solid fa-laptop
-#         reference: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit.
-#
-#       - name: Professor Jane Smith
-#         icon: fa-solid fa-thumbtack
-#         reference: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit.
+      - name: English
+        summary: "Fluent"
+
+    Interests:
+      - name: Physics
+        icon: fa-solid fa-tag
+        keywords: "Quantum Mechanics, Quantum Computing, Quantum Information, Quantum Cryptography, Quantum Communication, Quantum Teleportation"
+
+    Certificates:
+      - name: Machine Learning
+        date: 2018-01-01
+        issuer: Stanford University
+        icon: fa-solid fa-location-dot
+
+      - name: Quantum Computing
+        date: 2018-01-01
+        issuer: Stanford University
+        icon: fa-solid fa-tag
+
+      - name: Quantum Information
+        date: 2018-01-01
+        issuer: Stanford University
+        icon: fa-solid fa-envelope
+
+    Projects:
+      - name: Quantum Computing
+        summary: Quantum computing is the use of quantum-mechanical phenomena such as superposition and entanglement to perform computation. Computers that perform quantum computations are known as quantum computers.
+        highlights:
+          - Quantum Teleportation
+          - Quantum Cryptography
+        start_date: 2018-01-01
+        end_date: 2018-01-01
+
+    References:
+      - name: Professor John Doe
+        icon: fa-solid fa-laptop
+        reference: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit.
+
+      - name: Professor Jane Smith
+        icon: fa-solid fa-thumbtack
+        reference: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit.
