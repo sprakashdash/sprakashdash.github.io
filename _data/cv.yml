@@ -143,7 +143,7 @@ cv:
         url: https://openreview.net/forum?id=ko8Kn7TS6m
         summary: "Accepted paper on natural policy gradients in deep reinforcement learning"
 
-      - title: "Gradient Regularized Natural Gradient"
+      - title: "Gradient Regularized Natural Gradients"
         authors:
           - Satya Prakash Dash
           - Hossein Abdi
@@ -152,7 +152,7 @@ cv:
           - Mingfei Sun
         releaseDate: 2026
         publisher: "AISTATS 2026"
-        summary: "Submitted to AISTATS 2026 on gradient regularization for optimization"
+        summary: "Accepted to AISTATS 2026 on scalable natural gradients using gradient regularization"
 
       - title: "Guided Riemannian Optimization (GuRO): Bridging Model Predictive Control and Decision Transformers"
         authors:
@@ -198,6 +198,8 @@ cv:
     Languages:
       - name: English
         summary: "Fluent"
+      - name: Hindi
+        summary: "Fluent"
 
     Certificates:
       - name: "CUDA Certification"
@@ -217,7 +219,7 @@ cv:
 
     Projects:
       - name: "Fixed-Fisher for Pre-Training LLMs"
-        summary: "Selected for Royal Academy of Engineering RAEng Research Ready Summer internship. Proposes scalable Natural Gradient Descent for faster LLM pre-training"
+        summary: "Selected for Deepmind - RAEng Research Ready Summer internship. Proposes scalable Natural Gradient Descent for faster LLM pre-training"
         highlights:
           - "Selected for Royal Academy of Engineering Research Ready Summer internship"
           - "Implemented scalable Natural Gradient Descent for pre-training GPT2 and ViT"
