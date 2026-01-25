@@ -1,189 +1,246 @@
 cv:
-  name: Albert Einstein
-  label: Scientist
-  email: einstein@example.com
-  location: Princeton, NJ
+  name: Satya Prakash Dash
+  label: PhD Researcher in Computer Science
+  email: sprakashdash@gmail.com
+  phone: "+44 7423727177"
+  location: Manchester, UK
   image: ""
-  summary: A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time
+  summary: PhD researcher at University of Manchester specializing in second-order optimization, large language models, and deep reinforcement learning. Passionate about advancing machine learning through theoretical understanding and practical applications.
 
   social_networks:
-    - network: X
-      username: AlbertEinstein
-    - network: GitHub
-      username: example
     - network: LinkedIn
-      username: example
+      username: sprakashdash
+      url: https://www.linkedin.com/in/sprakashdash/
+    - network: GitHub
+      username: sprakashdash
+      url: https://github.com/sprakashdash
 
-  address:
-    street: 2712 Broadway St
-    city: San Francisco
-    region: California
-    postalCode: CA 94115
-    countryCode: US
 
   sections:
     Education:
-      - institution: University of Zurich
-        location: Zurich, Switzerland
-        url: https://www.uzh.ch/
-        area: Physics
+      - institution: The University of Manchester
+        location: Manchester, UK
+        url: https://www.manchester.ac.uk/
+        area: Computer Science
         studyType: PhD
-        start_date: 1900
-        end_date: 1905
+        start_date: 2023
+        end_date: 2026
         score: ""
-        courses: "Theory of Relativity"
         highlights:
-          - Description 1.
-          - Description 2.
+          - "Supervised by Prof Sami Kaski, Mingfei Sun & Wei Pan"
+          - "Fully funded via Dean's Doctoral Scholarship"
+          - "Research focus: Second-order optimizer trajectories using Fisher Information Matrix for fast LLM adaptation"
+          - "Recent paper submitted to AISTATS 2026 on Gradient Regularized Natural Gradient"
 
-      - institution: Eidgenössische Technische Hochschule
-        location: Zurich, Switzerland
+      - institution: Indian Institute of Technology, Kharagpur
+        location: Kharagpur, India
+        url: https://www.iitkgp.ac.in/
         area: Physics
-        studyType: Federal teaching diploma
-        start_date: 1896
-        end_date: 1900
+        studyType: "B.Sc. & M.Sc. (Hons) First Class"
+        start_date: 2015
+        end_date: 2020
+        score: "7.61/10"
         highlights:
-          - Description 1.
-          - Description 2.
+          - "Received Inspire Scholarship (2015-2020) by DST, Government of India"
+          - "Strong foundation in theoretical physics and computational methods"
+
+      - institution: Central Board of Secondary Education, India
+        location: India
+        area: Computer Science Stream
+        studyType: Senior Secondary
+        start_date: 2013
+        end_date: 2014
+        score: "89.6%"
+        highlights:
+          - "Selected for INMO; cleared Regional Mathematical Olympiad 2014"
 
     Experience:
-      - company: Institute for Advanced Study, Princeton University
-        position: Professor of Theoretical Physics
-        location: Princeton University, NJ
-        start_date: 1933
-        end_date: 1955
-        summary: Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.
+      - company: Visionify.AI
+        position: Sr. Machine Learning Research Engineer
+        location: Remote
+        start_date: 2022
+        end_date: 2022
+        summary: "Developed and deployed machine learning solutions for retail computer vision applications"
         highlights:
-          - Relativity
-          - Description 2.
+          - "Integrated wandb.ai into classification and object detection model training pipelines"
+          - "Built and deployed perspective correction algorithm for real-time footage"
+          - "Built blur detection pipeline to enhance out-of-stock accuracy"
+          - "Managed quality control of deep image models"
 
-      - company: California Institute of Technology
-        position: Visiting Professor
-        location: Pasadena, California, US
-        start_date: 1933
-        end_date: 1933
+      - company: Expand-AI Pvt Ltd
+        position: Machine Learning Research Engineer
+        location: India
+        start_date: 2021
+        end_date: 2022
+        summary: "Established few-shot learning pipeline for efficient data annotation"
         highlights:
-          - Description 1.
-          - Description 2.
+          - "Established pipeline achieving 70% faster turnaround than manual annotation"
+          - "Onboarded three clients and produced over million annotations"
+          - "Managed and assessed team of ten data associates"
 
-      - company: Kaiser Wilhelm Institute for Physics
-        position: Director
-        location: Berlin, Germany
-        start_date: 1917
-        end_date: 1933
-
-      - company: Karl-Ferdinand University
-        position: Professor of Theoretical Physics
-        location: Prague, Czechoslovakia
-        start_date: 1911
-        end_date: 1917
-
-      - company: University of Zurich
-        position: Associate Professor of Theoretical Physics
-        location: Zurich, Switzerland
-        start_date: 1909
-        end_date: 1911
-
-    Volunteer:
-      - company: People's Climate March
-        position: Lead Organizer
-        location: Zurich, Switzerland
-        start_date: 2014-04-01
-        end_date: 2015-07-01
-        summary: Lead organizer for the New York City branch of the People's Climate March, the largest climate march in history.
+    Internships:
+      - company: Brain-Feed Pvt. Ltd.
+        position: LLM for Nutritional Science
+        location: Remote
+        start_date: 2025
+        end_date: 2025
+        summary: "Developed LLM solutions for nutritional science research"
         highlights:
-          - "Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march."
-          - "Men of the year 2014 by Time magazine"
+          - "Built Prompt-Tuning and RAG pipeline using AWS BedRock"
+          - "Developed pipeline for in-depth metadata analysis"
+          - "Implemented fine-tuning methods for adapting Claude LLM"
+
+      - company: CYENS, Cyprus
+        position: Advanced Quadrupedal Locomotion from Vision through Deep RL
+        location: Cyprus
+        start_date: 2022
+        end_date: 2022
+        summary: "Developed vision-based reinforcement learning for quadruped robots"
+        highlights:
+          - "Worked with IsaacGym simulator for robot locomotion"
+          - "Built vision module (CNN + LSTM) for obstacle avoidance"
+          - "Designed complex terrains to test controller robustness"
+
+      - company: IIT Kharagpur
+        position: Spatial Variability of Ammonia & Particulate Matter Hotspots in India
+        location: Kharagpur, India
+        start_date: 2018
+        end_date: 2019
+        summary: "Analyzed atmospheric pollution data using satellite imagery"
+        highlights:
+          - "Collected decade of Ammonia data from Metop-A satellite"
+          - "Built preprocessing and visualization pipelines"
+          - "Research contributed to Science of Total Environment publication"
 
     Awards:
-      - title: Nobel Prize in Physics
-        authors:
-          - "Royal Swedish Academy of Sciences"
-        date: 1921-11-01
-        awarder: Royal Swedish Academy of Sciences
-        url: https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/
-        summary: The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'
+      - title: "Dean's Doctoral Scholarship"
+        awarder: "University of Manchester"
+        date: 2023
+        summary: "Full PhD funding award for the complete term of doctorate"
 
-      - title: Max Planck Medal
-        authors:
-          - "German Physical Society"
-        date: 2029
-        awarder: German Physical Society
-        summary: Awarded for outstanding scientific achievement
+      - title: "Inspire Scholarship"
+        awarder: "DST, Government of India"
+        date: 2015
+        summary: "Merit-based scholarship awarded through JEE Advanced 2015"
+
+      - title: "Social & Cultural Secretary"
+        awarder: "Azad Hall of Residence, IIT Kharagpur"
+        date: 2016
+        summary: "Elected to lead social and cultural activities"
+
+      - title: "Regional Mathematical Olympiad"
+        awarder: "Mathematical Olympiad Selection"
+        date: 2014
+        summary: "Cleared RMO 2014 and selected for INMO"
 
     Publications:
-      - title: Zur Elektrodynamik bewegter Körper
+      - title: "Rank-1 Approximation of Inverse Fisher for Natural Policy Gradients in Deep Reinforcement Learning"
         authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1905-06-30
-        url: https://en.wikisource.org/wiki/Translation:On_the_Electrodynamics_of_Moving_Bodies
-        summary: It concerned an interpretation of the Michelson–Morley experiment and the properties of light and time. Special relativity incorporates the principle that the speed of light is the same for all inertial observers regardless of the state of motion of the source.
+          - Yingxiao Huo
+          - Satya Prakash Dash
+          - Radu Stoican
+          - Samuel Kaski
+          - Mingfei Sun
+        releaseDate: 2025
+        publisher: "TMLR 2025"
+        url: https://openreview.net/forum?id=ko8Kn7TS6m
+        summary: "Accepted paper on natural policy gradients in deep reinforcement learning"
 
-      - title: Über einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt
+      - title: "Gradient Regularized Natural Gradient"
         authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1905-03-18
-        url: https://de.wikisource.org/wiki/Über_einen_die_Erzeugung_und_Verwandlung_des_Lichtes_betreffenden_heuristischen_Gesichtspunkt
-        summary: In the second paper, he applied the quantum theory to light to explain the photoelectric effect. In particular, he used the idea of light quanta (photons) to explain experimental results, but stressed the importance of the experimental results. The importance of his work on the photoelectric effect earned him the Nobel Prize in Physics in 1921.
+          - Satya Prakash Dash
+          - Hossein Abdi
+          - Wei Pan
+          - Samuel Kaski
+          - Mingfei Sun
+        releaseDate: 2026
+        publisher: "AISTATS 2026"
+        summary: "Submitted to AISTATS 2026 on gradient regularization for optimization"
 
-      - title: Die Grundlage der allgemeinen Relativitätstheorie
+      - title: "Guided Riemannian Optimization (GuRO): Bridging Model Predictive Control and Decision Transformers"
         authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1916-03-20
-        url: https://de.wikisource.org/wiki/Die_Grundlage_der_allgemeinen_Relativitätstheorie
-        summary: The publication of the theory of general relativity made him internationally famous. He was professor of physics at the universities of Zurich (1909–1911) and Prague (1911–1912), before he returned to ETH Zurich (1912–1914).
+          - Hossein Abdi
+          - Satya Prakash Dash
+          - Wei Pan
+          - Mingfei Sun
+        releaseDate: 2025
+        publisher: "ICRA 2025"
+        summary: "Submitted to ICRA 2025 on control and decision transformers"
+
+      - title: "Record-high levels of Atmospheric Ammonia over India: Spatial and Temporal Analysis"
+        authors:
+          - J. Kuttippurath
+          - Ajay Singh
+          - S. P. Dash
+          - N. Mallick
+          - C. Clerbaux
+          - M. Van Damme
+          - L. Clarisse
+          - P-F. Coheur
+          - H. Varikoden
+        releaseDate: 2020
+        publisher: "Science of Total Environment, Elsevier"
+        summary: "Published research on atmospheric ammonia levels over India"
 
     Skills:
-      - name: Physics
-        level: Master
-        icon: fa-solid fa-hashtag
-        keywords: "Quantum Mechanics, Quantum Computing, Quantum Information, Quantum Cryptography, Quantum Communication, Quantum Teleportation"
+      - name: "Programming Languages"
+        level: "Expert"
+        icon: fa-solid fa-code
+        keywords: "Python (PyTorch, Keras, TensorFlow2, OpenCV, Numpy, Scikit-Learn, Flask), C++ (STL, CUDA, OpenMP)"
+
+      - name: "Tools & Frameworks"
+        level: "Advanced"
+        icon: fa-solid fa-wrench
+        keywords: "ROS, MuJoCo, PyBullet, VS Code, JupyterLab, GCP, AWS-BedRock, Docker, Git, Matlab, LaTeX"
+
+      - name: "Research Areas"
+        level: "Advanced"
+        icon: fa-solid fa-microscope
+        keywords: "Machine Learning, Deep Reinforcement Learning, Natural Gradient Descent, Large Language Models, Computer Vision, Optimization Theory"
 
     Languages:
-      - name: German
-        summary: "Native speaker"
-
       - name: English
         summary: "Fluent"
 
-    Interests:
-      - name: Physics
-        icon: fa-solid fa-tag
-        keywords: "Quantum Mechanics, Quantum Computing, Quantum Information, Quantum Cryptography, Quantum Communication, Quantum Teleportation"
-
     Certificates:
-      - name: Machine Learning
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-location-dot
+      - name: "CUDA Certification"
+        date: 2024
+        issuer: NVIDIA
+        summary: "NVIDIA certification on CUDA C++ Applications with multi-GPU computing"
 
-      - name: Quantum Computing
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-tag
+      - name: "Cambridge Ellis Unit Summer School"
+        date: 2023
+        issuer: "University of Cambridge"
+        summary: "Selected for Probabilistic Machine Learning Summer School"
 
-      - name: Quantum Information
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-envelope
+      - name: "NeuroMatch Academy Deep Learning Course"
+        date: 2021
+        issuer: "NeuroMatch Academy"
+        summary: "Selected and participated in Deep Learning Course"
 
     Projects:
-      - name: Quantum Computing
-        summary: Quantum computing is the use of quantum-mechanical phenomena such as superposition and entanglement to perform computation. Computers that perform quantum computations are known as quantum computers.
+      - name: "Fixed-Fisher for Pre-Training LLMs"
+        summary: "Selected for Royal Academy of Engineering RAEng Research Ready Summer internship. Proposes scalable Natural Gradient Descent for faster LLM pre-training"
         highlights:
-          - Quantum Teleportation
-          - Quantum Cryptography
-        start_date: 2018-01-01
-        end_date: 2018-01-01
+          - "Selected for Royal Academy of Engineering Research Ready Summer internship"
+          - "Implemented scalable Natural Gradient Descent for pre-training GPT2 and ViT"
+          - "Achieved superior performance compared to AdamW training"
+        start_date: 2025
+        end_date: 2025
 
-    References:
-      - name: Professor John Doe
-        icon: fa-solid fa-laptop
-        reference: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit.
+      - name: "Policy Gradient Algorithms in PyTorch - RL.Fun.Do"
+        summary: "Comprehensive implementation of reinforcement learning algorithms with theoretical framework based on Statistical Physics"
+        highlights:
+          - "Implemented DDPG, PPO, TRPO and SAC for OpenAI Gym and TORCS"
+          - "Formulated theoretical framework connecting RL to Statistical Physics using partition functions"
+          - "Masters thesis: Continuous Control in Deep Reinforcement Learning and Statistical Physics"
+        start_date: 2019
+        end_date: 2020
 
-      - name: Professor Jane Smith
-        icon: fa-solid fa-thumbtack
-        reference: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit.
+      - name: "Computational Neuroscience"
+        summary: "Simulated auditory and neural dynamics using computational models"
+        highlights:
+          - "Simulated rate response and tuning curves of Auditory Nerve Fibre using Zilany et al. model"
+          - "Examined non-linear dynamical spiking through Morris-Lecar equations and Hodgkin-Huxley Model"
+        start_date: 2018
+        end_date: 2019
