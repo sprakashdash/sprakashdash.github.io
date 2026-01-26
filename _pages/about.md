@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: _"mathematical theories seem beautiful, but physics "is" beautiful because the universe has realised the mathematical theory in itself."_
+subtitle: <em>"mathematical theories seem beautiful, but physics "is" beautiful because the universe has realised the mathematical theory in itself."</em>
 
 profile:
   align: right
