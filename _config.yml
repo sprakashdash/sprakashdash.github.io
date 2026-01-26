@@ -206,6 +206,7 @@ exclude:
   - README.md
   - readme_preview/
   - vendor
+# New additions to exclude
   - _pages/blog.md
   - _pages/books.md
   - _pages/dropdown.md
@@ -214,6 +215,11 @@ exclude:
   - _pages/teaching.md
   - _pages/profiles.md
   - _pages/projects.md
+  - _books/
+  - _news/
+  - _posts/
+  - _projects/
+  - _teachings/
 keep_files:
   - CNAME
   - .nojekyll
@@ -289,8 +295,8 @@ display_categories: ["external-services"] # these categories will be displayed o
 # -----------------------------------------------------------------------------
 
 scholar:
-  last_name: [Einstein]
-  first_name: [Albert, A.]
+  last_name: [Dash]
+  first_name: [Satya Prakash]
 
   style: apa
   locale: en

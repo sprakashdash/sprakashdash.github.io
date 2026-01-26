@@ -34,3 +34,8 @@ Put your address / P.O. box / other info right below your picture. You can also 
 Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them. -->
 
 Whether it is collartz conjecture or the random matrix univesality; the measurement problem of quantum mechanics or the left-handedness of neutrinos, universe is hinting toward some deeper structure which mathematics haven't found out yet!
+
+Hi I am final year PhD student in the Department of Computer Science at the University of Manchester. My PhD work focuses on understanding the training dynamics of LLMs under natural gradients and propose scalable and more generalizable and robus training methods. "Natural" means it estimates the curvature of the loss function induced in the parameter space to estimate the sensitivity of each parameter of LLMs (and "accelerates" gradient descent). 
+
+From optimization perspective, I am interested in non-convex optimization (overparametrized NN setting and reinforcement learning). From numerical linear algebra perspective I am interested in scalable solutions to inversion of matrices and inverse square root of matrices (because that all we need to "accelerate" gradient descent).
+
