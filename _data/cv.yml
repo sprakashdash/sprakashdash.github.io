@@ -152,6 +152,7 @@ cv:
           - Mingfei Sun
         releaseDate: 2026
         publisher: "AISTATS 2026"
+        url: https://arxiv.org/pdf/2601.18420
         summary: "Accepted to AISTATS 2026 on scalable natural gradients using gradient regularization"
 
       - title: "Guided Riemannian Optimization (GuRO): Bridging Model Predictive Control and Decision Transformers"
@@ -177,6 +178,7 @@ cv:
           - H. Varikoden
         releaseDate: 2020
         publisher: "Science of Total Environment, Elsevier"
+        url: https://doi.org/10.1016/j.scitotenv.2020.139986
         summary: "Published research on atmospheric ammonia levels over India"
 
     Skills:
